@@ -1,4 +1,8 @@
-jQuery(document).ready(function() {
+window.onload = function () {
+   alert("carregado...");
+}
+
+$jQuery(document).ready(function() {
 	jQuery('.toggle-nav').click(function(e) {
 		jQuery(this).toggleClass('active');
 		jQuery('.menu ul').toggleClass('active');
