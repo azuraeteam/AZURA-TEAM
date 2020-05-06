@@ -1,6 +1,4 @@
-window.onload = function () {
-   alert("carregado...");
-}
+
 
 $jQuery(document).ready(function() {
 	jQuery('.toggle-nav').click(function(e) {
