@@ -91,6 +91,31 @@
 			max-height:200px;
 		}
 	}
+	@media (min-width:100px){
+		label[for="bt_menu"]{
+				display:block;
+			}
+			.menu{
+				margin-top:5px;
+				margin-left:-100%;
+				transition: all .4s;
+			}
+		.menu ul li{
+			
+			width:100%;
+			float:none;
+		}
+		.menu ul ul{
+			position:static;
+			overflow:hidden;
+			max-height:0;
+			transition:all .4s;
+		}
+		.menu ul li:hover ul{
+			height:auto;
+			max-height:200px;
+		}
+	}
 	#bt_menu{
 		display:none;
 	}
