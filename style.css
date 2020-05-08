@@ -113,7 +113,7 @@
 		}
 		.menu ul li:hover ul{
 			height:auto;
-			max-height:200px;
+			max-height:600px;
 		}
 	}
 	#bt_menu{
